@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
 .clearfix {
     content: "";
     display: table;
@@ -29,7 +33,18 @@ h2{
 }
 
 h5{
+    color: white;
+    text-align: left;
 
+}
+
+a{
+    float: left;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: Arial;
+    color: lightblue;
+    font-weight: bold;
 }
 
 p {
@@ -38,7 +53,7 @@ p {
 }
 
 .card {
-    background-color: deepskyblue;
+    background-color: rgb(2, 2, 133);
     width: calc(80% / 3);
     height: 100px;
     margin: 0 40px 0px 40px;
