@@ -21,9 +21,16 @@ p {
     text-align: center;
 }
 
+.card {
+    background-color: deepskyblue;
+}
+
 .row-1 .card{
     float: left;
     width: calc(100% / 3);
     text-align: center;
+    
+    
+    
 
 }
