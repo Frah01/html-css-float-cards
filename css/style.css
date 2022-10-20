@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .container {
     width: 70%;
@@ -16,6 +21,17 @@ h1 {
     font-family: arial;
 }
 
+h2{
+    text-align: left;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+h5{
+
+}
+
 p {
     margin-top: 20px;
     text-align: center;
@@ -23,14 +39,19 @@ p {
 
 .card {
     background-color: deepskyblue;
+    width: calc(80% / 3);
+    height: 100px;
+    margin: 0 40px 0px 40px;
+
 }
 
 .row-1 .card{
     float: left;
-    width: calc(100% / 3);
     text-align: center;
-    
-    
-    
+}
 
+img {
+  width: 100px;
+  float: left;
+  margin-right: 10px;
 }
