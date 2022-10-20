@@ -18,11 +18,11 @@ body {
     width: 70%;
     margin-top: 20px;
 }
-
+/*Testi cards*/
 h1 {
     text-align: center;
     color: palevioletred;
-    font-family: arial;
+    font-family: 'Fredoka One', cursive;
 }
 
 h2{
@@ -30,6 +30,7 @@ h2{
     padding: 10px;
     color: white;
     font-size: 20px;
+    font-family: 'Fredoka One', cursive;
 }
 
 h5{
@@ -46,24 +47,26 @@ a{
     color: lightblue;
     font-weight: bold;
 }
-
+/*Fine testi cards*/
 p {
     margin-top: 20px;
     text-align: center;
+    font-family: arial;
 }
-
+/*struttura*/
 .card {
     background-color: rgb(1, 1, 48);
     width: calc(80% / 3);
     height: 100px;
     margin: 0 40px 0px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    text-align: center;
 
 }
 
-.col .clearfix{
-   
+.row-1{
+    margin-top: 50px;
 }
-
 .row-1 .card{
     float: left;
     text-align: center;
