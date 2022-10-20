@@ -19,23 +19,27 @@ body {
     margin-top: 20px;
 }
 /*Testi cards*/
+.content {
+    padding: 10px;
+}
+
 h1 {
     text-align: center;
     color: palevioletred;
-    font-family: 'Fredoka One', cursive;
+    font-family: Arial;
 }
 
 h2{
     text-align: left;
-    padding: 10px;
     color: white;
     font-size: 20px;
-    font-family: 'Fredoka One', cursive;
+    font-family: Arial;
 }
 
 h5{
     color: white;
     text-align: left;
+    margin-top: 10px;
 
 }
 
@@ -56,9 +60,7 @@ p {
 /*struttura*/
 .card {
     background-color: rgb(1, 1, 48);
-    width: calc(80% / 3);
     height: 100px;
-    margin: 0 40px 0px 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
     text-align: center;
 
@@ -67,9 +69,11 @@ p {
 .row-1{
     margin-top: 50px;
 }
-.row-1 .card{
+.row-1 .col{
     float: left;
     text-align: center;
+    width: calc(100% / 3);
+    padding: 30px;
 }
 
 img {
@@ -77,3 +81,4 @@ img {
   float: left;
   margin-right: 10px;
 }
+
