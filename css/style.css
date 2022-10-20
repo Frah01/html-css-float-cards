@@ -26,20 +26,21 @@ body {
 h1 {
     text-align: center;
     color: palevioletred;
-    font-family: Arial;
+    font-family: 'Fredoka';
 }
 
 h2{
     text-align: left;
     color: white;
     font-size: 20px;
-    font-family: Arial;
+    font-family: 'Fredoka';
 }
 
 h5{
     color: white;
     text-align: left;
     margin-top: 10px;
+    font-family: 'Fredoka';
 
 }
 
@@ -47,7 +48,7 @@ a{
     float: left;
     margin-top: 10px;
     text-decoration: none;
-    font-family: Arial;
+    font-family: 'Fredoka';
     color: lightblue;
     font-weight: bold;
 }
